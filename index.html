@@ -15,6 +15,7 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="/css/index.css" />
     <title>Rocio Valenzuela</title>
   </head>
   <body>
@@ -47,17 +48,25 @@
         </div>
       </div>
     </nav>
-    <h2>Hi I am</h2>
-    <h1>Rocio Valenzuela</h1>
-    <h3>Front-end developer, based in USA</h3>
-    <a href="#"> Contact me</a>
-    <a href="/about.html"> About me</a>
+    <h2 class="text-center">Hi I am</h2>
+    <h1 class="text-center">Rocio Valenzuela</h1>
+    <h3 class="text-center">Front-end developer, based in USA</h3>
+    <div class="main-links mb-4">
+      <a href="/about.html#contact" class="btn btn-info primary-link">
+        Contact me</a
+      >
+      <a href="/about.html" class="btn btn-info about-link"> About me</a>
+    </div>
     <div class="container">
       <div class="row">
-        <div class="col">
-          <img src="/images/yoga.png" alt="yoga app" class="img-fluid" />
+        <div class="col-6 d-md-none d-lg-block">
+          <img
+            src="/images/yoga.png"
+            alt="yoga app"
+            class="img-fluid rounded"
+          />
         </div>
-        <div class="col">
+        <div class="col project-info">
           <h2>Yoga app</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
@@ -66,7 +75,7 @@
             explicabo eum dolore.
           </p>
           <div>
-            <a href="#"> Launch Yoga App</a>
+            <a href="#" class="btn btn-info primary-link"> Launch Yoga App</a>
           </div>
         </div>
       </div>
@@ -80,11 +89,15 @@
             explicabo eum dolore.
           </p>
           <div>
-            <a href="#">Launch Weather App</a>
+            <a href="#" class="btn btn-info primary-link">Launch Weather App</a>
           </div>
         </div>
         <div class="col">
-          <img src="/images/weather.png" alt="weather app" class="img-fluid" />
+          <img
+            src="/images/weather.png"
+            alt="weather app"
+            class="img-fluid rounded"
+          />
         </div>
       </div>
       <div class="row">
@@ -92,7 +105,7 @@
           <img
             src="/images/yogurt.png"
             alt="yogurt website"
-            class="img-fluid"
+            class="img-fluid rounded"
           />
         </div>
         <div class="col">
@@ -104,7 +117,9 @@
             explicabo eum dolore.
           </p>
           <div>
-            <a href="#"> Launch Yogurt website</a>
+            <a href="#" class="btn btn-info primary-link">
+              Launch Yogurt website</a
+            >
           </div>
         </div>
       </div>
