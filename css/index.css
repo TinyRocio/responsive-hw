@@ -1,3 +1,7 @@
+:root {
+  --primary-box-shadow: 4px 5px 12px rgba(0, 0, 0, 0.3);
+}
+
 body {
   margin-top: 100px;
 }
@@ -16,10 +20,19 @@ body {
   border-radius: 5px;
   padding: 20px 15px;
   text-transform: capitalize;
+  box-shadow: var(--primary-box-shadow);
 }
 
 .about-link {
   border-radius: 5px;
   padding: 20px 15px;
   text-transform: capitalize;
+  box-shadow: var(--primary-box-shadow);
+}
+
+@media (max-width: 768px) {
+  .project-info {
+    display: block;
+    text-align: center;
+  }
 }
